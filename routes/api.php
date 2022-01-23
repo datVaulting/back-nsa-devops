@@ -14,7 +14,7 @@ use Illuminate\Http\Request;
 */
 
 Route::get('', function () {
-    return response()->json(['hello' => 'world']);
+    return response()->json(['momo' => 'test']);
 });
 
 Route::get('/health', 'HealthController@index');
